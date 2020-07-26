@@ -1,0 +1,7 @@
+<?php
+
+    /*
+     * Slience is goldern...
+     * */
+
+?>

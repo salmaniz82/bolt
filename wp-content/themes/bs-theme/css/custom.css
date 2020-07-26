@@ -1,0 +1,278 @@
+/*
+.fp-tableCell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+
+
+.fp-slidesNav.fp-bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-reasons > .reason:hover {
+    letter-spacing: 1px;
+}
+
+.reason-selected {
+    border-color: #1f1a3a;
+    background-color: #1f1a3a;
+    color: #fff;
+}
+
+
+@media screen and (min-width: 768px)
+{
+    .blogPageTitle{
+        padding-top: 6rem !important;
+    }
+}
+
+
+/* DESIGN CHANGES CSS STYLES */
+
+#main-video-bg {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+@media (min-width: 1280px) {
+
+        .services>.service:first-child {
+            left: 0;
+        }
+
+        .services>.service:nth-child(2) {
+            left: 33.333333%;
+        }
+
+        .services>.service:nth-child(3) {
+            left: 66.666666%;
+        }
+
+}
+
+
+@media (min-width:1280px)
+{
+    .lg\:w-3\/4 {
+        width: 75%
+    }
+}
+
+
+.section[data-anchor="services"] ul.featuresList li {
+
+    display: block;
+    background-color: #3924fb;
+    color: #fff;
+
+    width: 75%;
+    margin: 0 auto 10px auto;
+}
+
+.section[data-anchor="services"] ul.featuresList li a {
+    display: inline-block;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 13px;
+    cursor: default;
+}
+
+@media (min-width:1280px) {
+    @media (hover: hover) {
+
+        .services>.service:hover> ul.featuresList {
+            display: none;
+        }
+
+
+    }
+}
+
+#about-details {
+    text-align: left;
+    padding-left: 100px;
+
+}
+
+.about-top-bar {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+
+.about-top-bar > span {
+
+    margin-right: 10px;
+    padding: 3px 5px;
+}
+
+.about-top-bar > span {
+    border: 2px solid #d6d6d6;
+    height: 35px;
+}
+
+.about-top-bar > span:first-child, .about-top-bar > span:last-child  {
+    border: none;
+}
+
+.about-top-bar > span:first-child {
+    font-size: 24px;
+}
+
+.boltheading
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.dynText > div {
+    font-size: 18px;
+}
+
+.dynText > div:first-child, .dynText > div:nth-child(2)  {
+
+    margin-bottom: 10px;
+}
+
+.case-study-wrapper {
+    border: 1px solid red;
+}
+
+.brd {
+    border: 1px solid red;
+}
+
+
+
+#work-fields {
+    justify-content: center;
+}
+
+
+
+
+
+.work-field {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    position: relative;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 1024px) {
+    .work-field
+{
+    height: 300px;
+    overflow: hidden;
+}
+
+    .desc_wrapper {
+        position: absolute;
+        color: #fff;
+        width: calc(100% - 15px);
+        height: 100%;
+        top: 0;
+        transition: all .7s ease;
+        opacity: 0;
+        transform: translateY(100%);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+
+
+
+}
+
+
+
+.desc_wrapper .descContents {
+    flex-basis: 100%;
+    text-align: left;
+
+}
+
+.work-field:hover > .desc_wrapper {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.work-field > .desc_wrapper .descTitle {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Circular;
+}
+
+
+
+
+
+@media (min-width: 1024px) {
+
+    .desc_wrapper .descContents {
+        flex-basis: 100%;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .work-field > .desc_wrapper .descTitle  {
+        font-size: 1.8rem;
+        margin-bottom: .75rem;
+        line-height: 1.25;
+    }
+
+    .work-field > .desc_wrapper .descShort {
+    font-size: 1rem;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: .75rem;
+    }
+
+}
+
+.workTopBar {
+    border-top: 1px solid #919191;
+    margin-top: 40px;
+}
+
+.iconWrapper .mt_ico {
+    display: inline-block;
+    color: #919191;
+    margin-right: 72px;
+    padding-top: 10px;
+}
+
+
+
+.iconWrapper .icText {
+    vertical-align: top;
+}
+
+.mt_ico.active {
+    color: #333;
+    border-top: 2px solid #333;
+}
+
+.footer-brands {
+    justify-content: center;
+}

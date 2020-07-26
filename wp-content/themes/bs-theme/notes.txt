@@ -1,0 +1,53 @@
+
+
+Completed Sections
+-----------------------
+Main video : done : update video
+clients : done
+services : done
+whitePapers : done
+
+
+In Progress
+about : done
+why Us : partially need image will be completed today
+contact details : in progress will be completed today
+
+
+Fixes:
+Client Mobile image : fixed
+Blog post : fixed
+\
+
+
+
+Pending
+our Work
+testomonails
+contact Us chatbot
+
+
+main
+about
+ourwork
+clients
+testomonials
+services
+why us
+chatbox
+whitepaper
+contact details
+footer icons
+
+
+Required Images
+--------------------
+1. Logo Light and dark and size as per PDF better if format is SVG
+2. White Papers : left image with text inside box transparent
+3. footer brand icons
+
+
+
+
+
+
